@@ -1,5 +1,6 @@
 const loadDataTable = async (data, table) =>{
   let userData = await data;
+
   for (let user of userData){
   let row = `
         <tr class="tr-rows">

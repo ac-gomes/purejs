@@ -7,7 +7,7 @@ const cards = (
   company
 ) => {
 
-  [...cardsElements].map(({id }) =>{
+  [...cardsElements].map(({id}) =>{
     if (id== 'address'){
       [...addressInput].map(input => {
         switch (input.id) {

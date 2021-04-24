@@ -12,7 +12,7 @@ const selectedButton = async (
   let userData = await data;
 
   for (let btn of buttons) {
-    btn.addEventListener('click', action =>{
+    btn.addEventListener('click', action => {
       let actualUserName = document.getElementById('user-name')
       const userIndex = userData.findIndex(user => user.username === actualUserName.innerText);
 
@@ -46,17 +46,17 @@ const selectedButton = async (
 
 function nextUser (data, current){
   if (current === (data.length-1)){
-    return data[data.length-1]
+    return data[data.length-1];
   }else{
-    return data[++current]
+    return data[++current];
   }
 }
 
 function previusUser(data, current){
   if (current === 0){
-    return data[0]
+    return data[0];
   }else{
-    return data[--current]
+    return data[--current];
   }
 }
 

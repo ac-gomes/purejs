@@ -15,7 +15,6 @@ const btnNexPrevious = document.querySelectorAll('.actions');
 
 //Initialize
 (async () => {
-
   let data = await getUsers(url);
   let [{username, address, company}] = data;
 
