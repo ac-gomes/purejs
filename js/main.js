@@ -3,8 +3,8 @@ import loadDataTable from "./loadData.js";
 import loadDataCard from "./crads.js";
 import Buttons from "./buttons.js";
 
-let url = "../data/dataSource.json"
-//let url ='https://jsonplaceholder.typicode.com/users'
+// let url = "../data/dataSource.json"
+let url ='https://jsonplaceholder.typicode.com/users'
 
 const trEl = document.getElementsByClassName('tr-rows');
 const tableContent = document.querySelector("#table-content");
