@@ -8,7 +8,6 @@ To access the data source that I used, [click here](https://jsonplaceholder.typi
 
 To see my code running click on this link: [https://ac-gomes.github.io/purejs/](https://ac-gomes.github.io/purejs/)
 
-![See here it is]()
+![See here it is](https://raw.githubusercontent.com/ac-gomes/purejs/app/img/purejs.png)
 
 This is not a responsive page, I haven't learned CSS very well yet.
-
